@@ -18,7 +18,7 @@ do
     echo "*********************cloning: $project *********************"
     git clone ssh://git@10.1.21.28:2211/$user_name/$project.git -b $chekout_branch
     cd $project
-    git remote add upstream ssh://git@10.1.21.28:2211/eipp-cloud/$branch.git
+    git remote add upstream ssh://git@10.1.21.28:2211/eipp-cloud/$project.git
     cd ..
 done
 
