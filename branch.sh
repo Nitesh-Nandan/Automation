@@ -12,6 +12,7 @@ then
         do
              cd $project
              git checkout falcondev
+             echo "git checkout -b $user_story"
              git checkout -b $user_story
              cd ..
         done
@@ -24,6 +25,7 @@ elif [ "$total_arg" -eq 1 ]
         do
             cd $project
             git checkout falcondev
+            echo "git checkout -b $user_story"
             git checkout -b $user_story
             cd ..
         done
