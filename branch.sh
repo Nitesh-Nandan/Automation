@@ -15,12 +15,12 @@ then
    for project in $eipp_cloud
     do
         echo "************* Creating Branch : $branch_name in $project **************"
-        echo "cd $project"
+        cd $project
         echo "checking out falcondev of $project"
-        #git checkout falcondev
+        git checkout falcondev
         echo "creating $branch_name and checkingout $branch_name."
-        #git checkout -b "$branch_name"
-        #cd ..
+        git checkout -b "$branch_name"
+        cd ..
     done
 
 elif [ "$operation" == 'sw' ]
@@ -28,10 +28,10 @@ then
     for project in $eipp_cloud
      do
         echo "************* Switching Branch : $branch_name in $project **************"
-        echo "cd $project"
+        cd $project
         echo "checking out $branch_name of $project"
-        echo "git checkout $branch_name"
-        #cd ..
+        git checkout $branch_name
+        cd ..
      done
 else
     echo "Invalid operation"
