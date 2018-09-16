@@ -33,6 +33,7 @@ for project in $eipp_cloud
         find . -type f -print0 | xargs -0  grep -l "<<<<<" >> ../$filename
         echo "" >> ../$filename
         echo "" >> ../$filename
+        git merge falcondev
         git checkout $branch_name
         echo "*****************************Consolidated Summary : $project END ****************************** " >> ../$filename
         cd ..
