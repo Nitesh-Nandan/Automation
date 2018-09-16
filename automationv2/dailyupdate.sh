@@ -9,7 +9,7 @@ for project in $eipp_cloud
         git checkout falcondev
         git fetch upstream
         git merge upstream/falcondev
-        #git push origin falcondev
+        git push origin falcondev
         echo "***************** Done : falcondev ************"
         echo ""
 
@@ -19,7 +19,7 @@ for project in $eipp_cloud
             git checkout origin/$branch
             git checkout -b $branch
             git merge upstream/$branch
-            #git push origin $branch
+            git push origin $branch
             git checkout falcondev
             git branch -D $branch
             echo "***************** Done : $branch ************"
