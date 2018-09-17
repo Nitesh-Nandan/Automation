@@ -1,4 +1,4 @@
-eipp_cloud="agent_eipp eipp_common eipp_correspondence eipp_model eipp_ui eipp_core_util eipp_gateway eipp_payment"
+eipp_cloud="agent_eipp eipp_common eipp_correspondence eipp_model eipp_ui eipp_core_util eipp_gateway eipp_payment eipp_agent_launcher eipp_root eipp_database eipp_accountsetup"
 ldapIds="alekya.pabbishet aman.mishra annie.jeyaraj aviral.srivasta kranthi.bejjarapu malay.satapathy mallikarjuna.vel prashant.t pramod.b praveen.tiwary samatha.p sarvani.ch nitesh.nandan"
 user_name="$1"
 chekout_branch="$2"
