@@ -1,4 +1,4 @@
-eipp_cloud="eipp_ui"
+eipp_cloud="agent_eipp eipp_common eipp_correspondence eipp_model eipp_ui eipp_core_util eipp_gateway eipp_payment eipp_agent_launcher eipp_root eipp_database eipp_accountsetup"
 branch_list="develop master duronto/18.10.0 hotfix/18.9.1"
 
 for project in $eipp_cloud
