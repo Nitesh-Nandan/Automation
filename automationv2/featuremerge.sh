@@ -1,4 +1,4 @@
-eipp_cloud="eipp_ui"
+eipp_cloud="agent_eipp eipp_common eipp_correspondence eipp_model eipp_ui eipp_core_util eipp_gateway eipp_payment eipp_agent_launcher eipp_root eipp_database eipp_accountsetup"
 branch_name="$1"
 operation="$2"
 file_suffix="_merge_summary.txt"
